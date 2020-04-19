@@ -5,7 +5,7 @@ Simple Machine Learning algorithms based on the flow of Artificial Neural Networ
 A typical ANN depicts the following calculations:
 
 1. **Forward Propagation** - 
-The process by which an ANN produces output **y^** and is governed by each component neuron **w.x + b**. Hence, **y^ = f<sub>act</sub>(Summation(w.x = b))** where
+The process by which an ANN produces output **y^** and is governed by each component neuron **w.x + b**. Hence, **y^ = f<sub>act</sub>(Summation(w.x + b))** where
 * **f<sub>act</sub>** is the activation function. It is one of the factors that changes Algorithm.
 * **w, b** are the weight and bias of a neuron.
 * **x** is the input fed to a neuron.
