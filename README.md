@@ -31,4 +31,4 @@ The project is made in Scala using Nd4J, a scientific computing library for the 
 
 **NOTE** - 
 * In order to tune an algorithm for a dataset, play around with hyperparameters specified for each algorithm.
-* It may be required to implement initialization techniques and data transformation techniques for better results, but the sole purpose of these alorithms is to depict the way they work in an ANN. 
+* It may be required to implement initialization and data transformation techniques for better results, but the sole purpose of the project is to depict the way algorithms work in an ANN. 
