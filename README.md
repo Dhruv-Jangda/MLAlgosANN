@@ -16,7 +16,7 @@ The process by which an ANN produces output **y^** and is governed by each compo
 
 3. **Backward Progagation** - The process of learning and updating the learnable parameters in order to achieve maximum possible accuracy and minimum possible cost(or loss). The whole process is governed by *Gradient Descent* that minimizes the Cost function by taking specified number of steps to reach a global minima. *Gradient Descent* is evaluated by chain rule as :
 * Weights : **dW** or **dJ/dw = (dJ/dy^) x (dy^/dz) x (dz/dw)**
-* Bias : **dB** or **dJ/dw = (dJ/dy^) x (dy^/dz) x (dz/db)**, since **J=f(y^)**, **y^=f<sub>act</act>(z)** and **z=f(w,b)** 
+* Bias : **dB** or **dJ/dw = (dJ/dy^) x (dy^/dz) x (dz/db)**, since **J=f(y^)**, **y^=f<sub>act</sub>(z)** and **z=f(w,b)** 
 
 4. **Parameters Update** - As learnable parameters keep updating to achieve a desired accuracy, the model keeps learning. Parameters are updated as :
 * Weights : **W<sub>new</sub> = W<sub>old</sub> - learningRate x dW** where *learningRate* is another hyper parameter that acts as a step(large or small) scaled of the descent to reach the global minima. When kept too large, it bounces back and forth off the global minima, hence always passing forth the global minima. However, when kept too small, it enables many descents to reach the global minima thereby slowing down the learning. Hence the parameter should be adjusted accordingly.
